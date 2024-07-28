@@ -1,0 +1,45 @@
+/* src/styles/custom-confirm-alert.css */
+.custom-confirm-alert .react-confirm-alert .react-confirm-alert-body {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.custom-confirm-alert
+  .react-confirm-alert
+  .react-confirm-alert-body
+  .emoji-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.custom-confirm-alert
+  .react-confirm-alert
+  .react-confirm-alert-body
+  .emoji-item {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  border: 1px solid transparent;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.custom-confirm-alert
+  .react-confirm-alert
+  .react-confirm-alert-body
+  .emoji-item:hover {
+  border: 1px solid #ff8c00; /* Darker orange for hover */
+}
+
+.custom-confirm-alert
+  .react-confirm-alert
+  .react-confirm-alert-body
+  .emoji-item.selected {
+  background-color: #ffa500; /* Lighter orange for selected */
+  border: 1px solid #ff8c00; /* Darker orange for selected */
+}
